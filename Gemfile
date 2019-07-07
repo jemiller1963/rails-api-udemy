@@ -9,8 +9,9 @@ gem 'puma', '~> 3.11'
 gem 'figaro', '~> 1.1', '>= 1.1.1'
 gem 'awesome_print', '~> 1.8'
 gem 'bootsnap', '>= 1.1.0', require: false
-# gem 'active_model_serializers', '~> 0.10.9'
-gem 'fast_jsonapi', '~> 1.5'
+gem 'active_model_serializers', '~> 0.10.9'
+# gem 'fast_jsonapi', '~> 1.5'
+gem 'kaminari', '~> 1.1', '>= 1.1.1'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
