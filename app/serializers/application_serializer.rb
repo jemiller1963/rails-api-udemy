@@ -1,3 +1,3 @@
 class ApplicationSerializer
-  # include FastJsonapi::ObjectSerializer
+  include FastJsonapi::ObjectSerializer
 end
