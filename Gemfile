@@ -5,7 +5,7 @@ ruby '2.5.3'
 
 gem 'rails', '~> 5.2.3'
 gem 'pg', '>= 0.18', '< 2.0'
-gem 'puma', '~> 3.11'
+gem 'puma', '~> 3.12'
 gem 'figaro', '~> 1.1', '>= 1.1.1'
 gem 'awesome_print', '~> 1.8'
 gem 'bootsnap', '>= 1.1.0', require: false
